@@ -64,14 +64,10 @@ header {
 .container-ads {
 	display: flex;
 	padding: 2em 0;
-	align-items: center;
-	justify-content: space-between;
+	flex-direction: column;
 }
-
-@media (max-width: 850px) {
-	.container-ads {
-		flex-direction: column;
-	}
+.software {
+	height: 100vh;
 }
 .bg-img {
 	width: 100%;
